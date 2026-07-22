@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sign In - ACCOUNT CENTER</title>
+    <style>
+        :root { --navy: #232F3E; --blue: #0066c0; --bg: #f3f3f3; --btn-gold: linear-gradient(to bottom, #f7dfa5, #f0c14b); }
+        body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; padding: 0; background-color: #fff; color: #111; }
+        
+        header { background-color: var(--navy); padding: 20px 0; text-align: center; color: white; }
+        .header-logo { font-size: 24px; margin-bottom: 5px; display: block; }
+        .header-title { font-size: 18px; font-weight: bold; letter-spacing: 1px; }
+
+        .container { max-width: 380px; margin: 20px auto; padding: 0 20px; }
+        
+        .login-card { border: 1px solid #ddd; border-radius: 8px; padding: 25px; margin-bottom: 20px; }
+        h1 { font-size: 28px; font-weight: 400; margin: 0 0 15px; }
+        label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 5px; }
+        input { width: 100%; padding: 10px; margin-bottom: 18px; border: 1px solid #a6a6a6; border-radius: 3px; box-sizing: border-box; outline: none; }
+        
+        .btn-signin { width: 100%; background: var(--btn-gold); border: 1px solid #a88734; border-radius: 3px; padding: 12px; font-size: 14px; cursor: pointer; }
+        .legal { font-size: 12px; color: #555; margin-top: 15px; line-height: 1.4; }
+
+        .divider { height: 1px; background: #ddd; margin: 30px 0; position: relative; text-align: center; }
+        .divider span { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: #fff; padding: 0 10px; color: #767676; font-size: 12px; }
+
+        .support-box { border: 1px solid #ddd; border-radius: 8px; padding: 20px; text-align: center; }
+        .support-box h3 { color: #c45500; font-size: 17px; margin-top: 0; }
+        .phone-num { font-size: 32px; font-weight: 700; color: var(--blue); text-decoration: none; display: block; margin: 10px 0; }
+
+        .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; border-top: 1px solid #ddd; display: flex; justify-content: center; z-index: 100; }
+        .call-btn { background: #FFD814; color: #111; text-decoration: none; width: 95%; text-align: center; padding: 16px; font-weight: 700; border-radius: 50px; border: 1px solid #a88734; font-size: 17px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="header-logo">🛒</span>
+        <span class="header-title">ACCOUNT CENTER</span>
+    </header>
+
+    <div class="container">
+        <div class="login-card">
+            <h1>Sign in</h1>
+            <label>Email or mobile phone number</label>
+            <input type="text">
+            <label>Password</label>
+            <input type="password">
+            <button class="btn-signin" onclick="location.href='error.html'">Sign-In for Verification</button>
+            <p class="legal">By signing in, you agree to the standard terms of service.</p>
+        </div>
+
+        <div class="divider"><span>New to Help Center?</span></div>
+
+        <div class="support-box">
+            <h3>Live Assistance Available 24/7</h3>
+            <p style="font-size: 13px; color: #555;">Need help with your orders, memberships, or account recovery? Our specialists are available to help you resolve technical issues and billing inquiries.</p>
+            <a href="tel:+18776486041" class="phone-num">1-877-648-6041</a>
+            <p style="font-size: 11px; color: #767676;">Certified specialists available 24/7.</p>
+        </div>
+
+        <div style="text-align: center; font-size: 11px; color: #888; margin: 30px 0 120px;">
+            Expert help desk assistance. Standard carrier rates may apply for calls from mobile devices.
+        </div>
+    </div>
+
+    <div class="sticky-footer">
+        <a href="tel:+18776486041" class="call-btn">📞 CALL CUSTOMER CARE</a>
+    </div>
+
+</body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a2304085bdfa41c2ccf2c83/1jqccfgdj';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</html>
